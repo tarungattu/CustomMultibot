@@ -1,0 +1,1 @@
+/home/tarun_56/multibot_ws/build/nav2_bringup/ament_cmake_environment_hooks/local_setup.zsh
