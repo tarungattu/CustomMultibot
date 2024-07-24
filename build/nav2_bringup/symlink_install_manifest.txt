@@ -1,6 +1,7 @@
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/bringup_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/localization_launch.py
+/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/map_filters_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/navigation_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/rviz_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/slam_launch.py
@@ -16,6 +17,7 @@
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/worlds/waffle.model
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/worlds/warehouse.world
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/worlds/world_only.model
+/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/params/map_filter_params.yaml
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_1.yaml
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_2.yaml
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_all.yaml
