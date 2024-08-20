@@ -8,6 +8,8 @@
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/tb3_simulation_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/unique_multi_tb3_simulation_launch.py
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/launch/warehouse_multibot_launch.py
+/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/maps/keepout_mask.pgm
+/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/maps/keepout_mask.yaml
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/maps/new_warehouse_save.pgm
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/maps/new_warehouse_save.yaml
 /home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.pgm

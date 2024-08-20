@@ -1,0 +1,417 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76ce643c1510>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ce643c0f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ce643c0f10>>)
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tarun_56/multibot_ws'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_waypoints' with type 'ros.ament_python' and name 'follow_waypoints'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minibot' with type 'ros.ament_cmake' and name 'minibot'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_bringup' with type 'ros.ament_cmake' and name 'nav2_bringup'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.357s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 405 installed packages in /opt/ros/humble
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.416s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'nav2_bringup' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding nav2_bringup
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'follow_waypoints' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/multibot_ws/build/follow_waypoints', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/multibot_ws/install/follow_waypoints', 'merge_install': False, 'path': '/home/tarun_56/multibot_ws/src/follow_waypoints', 'symlink_install': True, 'test_result_base': None}
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'minibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/multibot_ws/build/minibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/multibot_ws/install/minibot', 'merge_install': False, 'path': '/home/tarun_56/multibot_ws/src/minibot', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/multibot_ws/build/nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/multibot_ws/install/nav2_bringup', 'merge_install': False, 'path': '/home/tarun_56/multibot_ws/src/nav2_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/multibot_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/tarun_56/multibot_ws/src/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/multibot_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/multibot_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/tarun_56/multibot_ws/src/turtlebot3_simulations', 'symlink_install': True, 'test_result_base': None}
+[0.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tarun_56/multibot_ws/src/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tarun_56/multibot_ws/src/turtlebot3_gazebo'
+[0.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tarun_56/multibot_ws/src/follow_waypoints' with build type 'ament_python'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'ament_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.ps1'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tarun_56/multibot_ws/src/minibot' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tarun_56/multibot_ws/src/minibot'
+[0.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tarun_56/multibot_ws/src/nav2_bringup' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tarun_56/multibot_ws/src/nav2_bringup'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/turtlebot3_gazebo -- -j4 -l4
+[0.853s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tarun_56/multibot_ws/src/follow_waypoints'
+[0.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/minibot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/minibot -- -j4 -l4
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/nav2_bringup -- -j4 -l4
+[1.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/nav2_bringup -- -j4 -l4
+[1.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/nav2_bringup
+[1.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_bringup)
+[1.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/nav2_bringup
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup' for CMake module files
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup' for CMake config files
+[1.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_bringup', 'cmake_prefix_path')
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.dsv'
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.sh'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/bin'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/lib/pkgconfig/nav2_bringup.pc'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/lib/python3.10/site-packages'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/bin'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.sh'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.bash'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.zsh'
+[1.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/nav2_bringup/share/colcon-core/packages/nav2_bringup)
+[1.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_bringup)
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup' for CMake module files
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup' for CMake config files
+[1.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_bringup', 'cmake_prefix_path')
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.sh'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/bin'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/lib/pkgconfig/nav2_bringup.pc'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/lib/python3.10/site-packages'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/nav2_bringup/bin'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.dsv'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.sh'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.bash'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/nav2_bringup/share/nav2_bringup/package.zsh'
+[1.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/nav2_bringup/share/colcon-core/packages/nav2_bringup)
+[1.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/follow_waypoints': PYTHONPATH=/home/tarun_56/multibot_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun_56/multibot_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/multibot_ws/build/follow_waypoints/build --no-deps symlink_data
+[2.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath_develop')
+[2.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun_56/multibot_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun_56/multibot_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/multibot_ws/build/follow_waypoints/build --no-deps symlink_data
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.ps1'
+[2.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.dsv'
+[2.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.sh'
+[2.453s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints' for CMake module files
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints' for CMake config files
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints/lib'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints/bin'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints/lib/pkgconfig/follow_waypoints.pc'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints/lib/python3.10/site-packages'
+[2.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath')
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.ps1'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.dsv'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.sh'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/follow_waypoints/bin'
+[2.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_waypoints)
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/package.ps1'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/package.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/package.sh'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/package.bash'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/follow_waypoints/share/follow_waypoints/package.zsh'
+[2.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/follow_waypoints/share/colcon-core/packages/follow_waypoints)
+[2.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/minibot -- -j4 -l4
+[2.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/minibot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/minibot
+[2.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot)
+[2.926s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot' for CMake module files
+[2.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/minibot
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot' for CMake config files
+[2.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot', 'cmake_prefix_path')
+[2.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/minibot/share/minibot/hook/cmake_prefix_path.ps1'
+[2.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/minibot/share/minibot/hook/cmake_prefix_path.dsv'
+[2.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/minibot/share/minibot/hook/cmake_prefix_path.sh'
+[2.937s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/bin'
+[2.937s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/lib/pkgconfig/minibot.pc'
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/lib/python3.10/site-packages'
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/bin'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.ps1'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.dsv'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.sh'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.bash'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.zsh'
+[2.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/minibot/share/colcon-core/packages/minibot)
+[3.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/turtlebot3_gazebo -- -j4 -l4
+[3.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot)
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot' for CMake module files
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot' for CMake config files
+[3.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot', 'cmake_prefix_path')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/minibot/share/minibot/hook/cmake_prefix_path.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/minibot/share/minibot/hook/cmake_prefix_path.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/minibot/share/minibot/hook/cmake_prefix_path.sh'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/bin'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/lib/pkgconfig/minibot.pc'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/lib/python3.10/site-packages'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/minibot/bin'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.ps1'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.dsv'
+[3.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.sh'
+[3.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.bash'
+[3.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/minibot/share/minibot/package.zsh'
+[3.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/minibot/share/colcon-core/packages/minibot)
+[3.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/turtlebot3_gazebo
+[3.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[3.179s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo' for CMake module files
+[3.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/turtlebot3_gazebo
+[3.180s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo' for CMake config files
+[3.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[3.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[3.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/lib'
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/bin'
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[3.186s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[3.186s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/bin'
+[3.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[3.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[3.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[3.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[3.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[3.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[3.276s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo' for CMake module files
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo' for CMake config files
+[3.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[3.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[3.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[3.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/lib'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/bin'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/bin'
+[3.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[3.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[3.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[3.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[3.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tarun_56/multibot_ws/src/turtlebot3_simulations' with build type 'ament_cmake'
+[3.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tarun_56/multibot_ws/src/turtlebot3_simulations'
+[3.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/turtlebot3_simulations -- -j4 -l4
+[3.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/turtlebot3_simulations -- -j4 -l4
+[3.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/turtlebot3_simulations
+[3.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[3.685s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations' for CMake module files
+[3.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/turtlebot3_simulations
+[3.687s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations' for CMake config files
+[3.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[3.689s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/bin'
+[3.689s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/bin'
+[3.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[3.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[3.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations' for CMake module files
+[3.732s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations' for CMake config files
+[3.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/bin'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/bin'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[3.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[3.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.738s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.754s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.775s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/multibot_ws/install/local_setup.ps1'
+[3.777s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tarun_56/multibot_ws/install/_local_setup_util_ps1.py'
+[3.779s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/multibot_ws/install/setup.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/multibot_ws/install/local_setup.sh'
+[3.782s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tarun_56/multibot_ws/install/_local_setup_util_sh.py'
+[3.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/multibot_ws/install/setup.sh'
+[3.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/multibot_ws/install/local_setup.bash'
+[3.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/multibot_ws/install/setup.bash'
+[3.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/multibot_ws/install/local_setup.zsh'
+[3.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/multibot_ws/install/setup.zsh'

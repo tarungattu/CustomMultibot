@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+89a2fe22410fa461cd0aa697901a5ed2 CMakeFiles/minibot_uninstall

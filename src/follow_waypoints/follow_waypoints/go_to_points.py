@@ -7,7 +7,7 @@ import json
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
-from rclpy.executors import SingleThreadedExecutor
+from rclpy.executors import MultiThreadedExecutor
 import threading
 
 def parse_json(json_file):
@@ -91,10 +91,6 @@ def robot_process(navigator, sequence, ptimes, robot_namespace):
         '-2': unloading_dock
     }
 
-    inspection_route = []
-    for m in sequence:
-        inspection_route.append(poses[str(m)])
-
     for i, m in zip(range(len(sequence)), sequence):
         goal_pose = PoseStamped()
         goal_pose.header.frame_id = 'map'
@@ -136,28 +132,24 @@ def start_execution(data):
     json_file_path = '/home/tarun_56/multibot_ws/src/JobShopGA/amr_data.json'
     sequence1, ptimes1, sequence2, ptimes2 = parse_json(json_file_path)
 
-    executor1 = SingleThreadedExecutor()
-    executor2 = SingleThreadedExecutor()
+    executor = MultiThreadedExecutor()
+
+    executor.add_node(navigator1)
+    executor.add_node(navigator2)
 
     node1 = threading.Thread(target=robot_process, args=(navigator1, sequence1, ptimes1, namespace1))
     node2 = threading.Thread(target=robot_process, args=(navigator2, sequence2, ptimes2, namespace2))
 
-    executor1.add_node(navigator1)
-    executor2.add_node(navigator2)
-
-    thread1 = threading.Thread(target=executor1.spin)
-    thread2 = threading.Thread(target=executor2.spin)
-
     node1.start()
     node2.start()
-    thread1.start()
-    thread2.start()
 
-    node1.join()
-    node2.join()
-    executor1.shutdown()
-    executor2.shutdown()
-    rclpy.shutdown()
+    try:
+        executor.spin()
+    finally:
+        node1.join()
+        node2.join()
+        executor.shutdown()
+        rclpy.shutdown()
 
 def main():
     print('go to points is being executed')

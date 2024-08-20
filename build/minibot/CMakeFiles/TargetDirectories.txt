@@ -1,0 +1,9 @@
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/uninstall.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/minibot_uninstall.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/test.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/edit_cache.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/rebuild_cache.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/list_install_components.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/install.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/install/local.dir
+/home/tarun_56/multibot_ws/build/minibot/CMakeFiles/install/strip.dir

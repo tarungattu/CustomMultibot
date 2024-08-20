@@ -25,7 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'follow_waypoints_exe = follow_waypoints.follow_waypoints:main',
-            'go_to_points_exe = follow_waypoints.go_to_points:main'
+            'go_to_points_exe = follow_waypoints.go_to_points:main',
+            'robot_1_exe = follow_waypoints.robot_1_cmd:main',
+            'robot_2_exe = follow_waypoints.robot_2_cmd:main'
         ],
     },
 )

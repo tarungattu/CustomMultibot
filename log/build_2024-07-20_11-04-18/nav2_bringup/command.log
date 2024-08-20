@@ -1,6 +1,0 @@
-Invoking command in '/home/tarun_56/multibot_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun_56/multibot_ws/src/nav2_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/multibot_ws/install/nav2_bringup
-Invoked command in '/home/tarun_56/multibot_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun_56/multibot_ws/src/nav2_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/multibot_ws/install/nav2_bringup
-Invoking command in '/home/tarun_56/multibot_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/nav2_bringup -- -j4 -l4
-Invoked command in '/home/tarun_56/multibot_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/nav2_bringup -- -j4 -l4
-Invoking command in '/home/tarun_56/multibot_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/nav2_bringup
-Invoked command in '/home/tarun_56/multibot_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/nav2_bringup

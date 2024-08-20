@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/home/tarun_56/multibot_ws/install/turtlebot3_simulations:/home/tarun_56/multibot_ws/install/nav2_bringup:/home/tarun_56/multibot_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/turtlebot3_simulations -- -j4 -l4
+[0.092s] Invoked command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/home/tarun_56/multibot_ws/install/turtlebot3_simulations:/home/tarun_56/multibot_ws/install/nav2_bringup:/home/tarun_56/multibot_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/multibot_ws/build/turtlebot3_simulations -- -j4 -l4
+[0.138s] Invoking command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/home/tarun_56/multibot_ws/install/turtlebot3_simulations:/home/tarun_56/multibot_ws/install/nav2_bringup:/home/tarun_56/multibot_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/turtlebot3_simulations
+[0.154s] -- Install configuration: ""
+[0.155s] -- Execute custom install script
+[0.155s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.156s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.157s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.159s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[0.159s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.160s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.160s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.161s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[0.161s] -- Symlinking: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[0.180s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.181s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.181s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.181s] -- Up-to-date symlink: /home/tarun_56/multibot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[0.184s] Invoked command in '/home/tarun_56/multibot_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/tarun_56/multibot_ws/install/turtlebot3_gazebo:/home/tarun_56/multibot_ws/install/turtlebot3_simulations:/home/tarun_56/multibot_ws/install/nav2_bringup:/home/tarun_56/multibot_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/multibot_ws/build/turtlebot3_simulations
