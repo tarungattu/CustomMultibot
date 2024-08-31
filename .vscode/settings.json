@@ -1,0 +1,15 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/tarun_56/multibot_ws/build/follow_waypoints",
+        "/home/tarun_56/multibot_ws/install/follow_waypoints/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tarun_56/multibot_ws/build/follow_waypoints",
+        "/home/tarun_56/multibot_ws/install/follow_waypoints/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
