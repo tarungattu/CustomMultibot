@@ -136,7 +136,7 @@ def generate_launch_description():
     ld.add_action(start_lifecycle_manager_cmd)
 
     # Running SLAM Toolbox (Only one of them will be run)
-    ld.add_action(start_slam_toolbox_cmd)
+    # ld.add_action(start_slam_toolbox_cmd)
     ld.add_action(start_slam_toolbox_cmd_with_params)
 
     return ld

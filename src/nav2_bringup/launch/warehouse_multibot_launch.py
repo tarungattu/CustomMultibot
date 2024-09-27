@@ -39,9 +39,9 @@ def generate_launch_description():
 
     # Names and poses of the robots
     robots = [
-        {'name': 'robot1', 'x_pose': -6.88, 'y_pose': 3.31, 'z_pose': 0.01,
+        {'name': 'robot1', 'x_pose': -6.89, 'y_pose': 3.31, 'z_pose': 0.1,
                            'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0},
-        {'name': 'robot2', 'x_pose': -6.88, 'y_pose': 4.31, 'z_pose': 0.01,
+        {'name': 'robot2', 'x_pose': -6.89, 'y_pose': 4.31, 'z_pose': 0.1,
                            'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}]
 
     # Simulation settings
@@ -84,7 +84,7 @@ def generate_launch_description():
         description='Full path to the ROS2 parameters file to use for robot2 launched nodes')
 
     declare_autostart_cmd = DeclareLaunchArgument(
-        'autostart', default_value='false',
+        'autostart', default_value='true',
         description='Automatically startup the stacks')
 
     declare_rviz_config_file_cmd = DeclareLaunchArgument(
@@ -126,7 +126,7 @@ def generate_launch_description():
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(os.path.join(bringup_dir,
                                                            'launch',
-                                                           'tb3_simulation_launch.py')),
+                                                           'autobot_sim_launch.py')),
                 launch_arguments={'namespace': robot['name'],
                                   'use_namespace': 'True',
                                   'map': map_yaml_file,
