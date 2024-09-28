@@ -1,1 +1,1 @@
-/home/tarun_56/multibot_ws/src/turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py
+/home/tarun/CustomMultibot/src/turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py

@@ -1,0 +1,67 @@
+[0.227s] Invoking command in '/home/tarun/CustomMultibot/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/nav2_bringup -- -j12 -l12
+[0.248s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.342s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.348s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[0.348s] -- Found navigation2: 1.1.16 (/opt/ros/humble/share/navigation2/cmake)
+[0.349s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.432s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.436s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.437s] -- Added test 'lint_cmake' to check CMake code style
+[0.437s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.439s] -- Added test 'xmllint' to check XML markup files
+[0.440s] -- Configuring done
+[0.443s] -- Generating done
+[0.444s] -- Build files have been written to: /home/tarun/CustomMultibot/build/nav2_bringup
+[0.471s] Invoked command in '/home/tarun/CustomMultibot/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/nav2_bringup -- -j12 -l12
+[0.496s] Invoking command in '/home/tarun/CustomMultibot/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/nav2_bringup
+[0.506s] -- Install configuration: "Release"
+[0.506s] -- Execute custom install script
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/autobot_sim_launch.py
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/bringup_launch.py
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/localization_launch.py
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/map_filters_launch.py
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/navigation_launch.py
+[0.506s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/rviz_launch.py
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/slam_launch.py
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/tb3_simulation_launch.py
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/unique_multi_tb3_simulation_launch.py
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/launch/warehouse_multibot_launch.py
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/maps/keepout_mask.pgm
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/maps/keepout_mask.yaml
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/maps/new_warehouse_save.pgm
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/maps/new_warehouse_save.yaml
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.pgm
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.yaml
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/rviz/nav2_default_view.rviz
+[0.507s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/rviz/nav2_namespaced_view.rviz
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/worlds/waffle.model
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/worlds/warehouse.world
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/worlds/world_only.model
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/params/map_filter_params.yaml
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_1.yaml
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_2.yaml
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_all.yaml
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/params/nav2_params.yaml
+[0.508s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/urdf/turtlebot3_waffle.urdf
+[0.508s] -- Symlinking: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/autobot_description/gazebo_control.xacro
+[0.515s] -- Symlinking: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/autobot_description/lidar.xacro
+[0.525s] -- Symlinking: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/autobot_description/robot.urdf.xacro
+[0.534s] -- Symlinking: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/autobot_description/robot_core.xacro
+[0.544s] -- Symlinking: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/autobot_description/ros2_control.xacro
+[0.553s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/ament_index/resource_index/package_run_dependencies/nav2_bringup
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/ament_index/resource_index/parent_prefix_path/nav2_bringup
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.sh
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.dsv
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/environment/path.sh
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/environment/path.dsv
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/local_setup.bash
+[0.554s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/local_setup.sh
+[0.555s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/local_setup.zsh
+[0.555s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/local_setup.dsv
+[0.555s] -- Symlinking: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/package.dsv
+[0.565s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/ament_index/resource_index/packages/nav2_bringup
+[0.565s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig.cmake
+[0.565s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig-version.cmake
+[0.565s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/nav2_bringup/share/nav2_bringup/package.xml
+[0.576s] Invoked command in '/home/tarun/CustomMultibot/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/nav2_bringup

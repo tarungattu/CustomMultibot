@@ -1,0 +1,43 @@
+[0.744s] Invoking command in '/home/tarun/CustomMultibot/build/follow_waypoints': PYTHONPATH=/home/tarun/CustomMultibot/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tarun/CustomMultibot/build/follow_waypoints/build
+[0.958s] running develop
+[0.958s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.958s]   warnings.warn(
+[1.101s] Removing /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.124s] Invoked command in '/home/tarun/CustomMultibot/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun/CustomMultibot/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tarun/CustomMultibot/build/follow_waypoints/build
+[1.125s] Invoking command in '/home/tarun/CustomMultibot/src/follow_waypoints': PYTHONPATH=/home/tarun/CustomMultibot/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/tarun/CustomMultibot/build/follow_waypoints/build install --record /home/tarun/CustomMultibot/build/follow_waypoints/install.log --single-version-externally-managed install_data --force
+[1.325s] running egg_info
+[1.326s] writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO
+[1.326s] writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt
+[1.326s] writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt
+[1.326s] writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt
+[1.326s] writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt
+[1.328s] reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[1.329s] writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[1.329s] running build
+[1.329s] running build_py
+[1.330s] running install
+[1.330s] running install_lib
+[1.330s] creating /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.331s] copying /home/tarun/CustomMultibot/build/follow_waypoints/build/lib/follow_waypoints/robot_2_cmd.py -> /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.331s] copying /home/tarun/CustomMultibot/build/follow_waypoints/build/lib/follow_waypoints/follow_waypoints.py -> /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.331s] copying /home/tarun/CustomMultibot/build/follow_waypoints/build/lib/follow_waypoints/go_to_points.py -> /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.331s] copying /home/tarun/CustomMultibot/build/follow_waypoints/build/lib/follow_waypoints/robot_1_cmd.py -> /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.331s] copying /home/tarun/CustomMultibot/build/follow_waypoints/build/lib/follow_waypoints/__init__.py -> /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.331s] byte-compiling /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/robot_2_cmd.py to robot_2_cmd.cpython-310.pyc
+[1.332s] byte-compiling /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+[1.333s] byte-compiling /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/go_to_points.py to go_to_points.cpython-310.pyc
+[1.334s] byte-compiling /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/robot_1_cmd.py to robot_1_cmd.cpython-310.pyc
+[1.334s] byte-compiling /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/__init__.py to __init__.cpython-310.pyc
+[1.335s] running install_data
+[1.335s] copying resource/follow_waypoints -> /home/tarun/CustomMultibot/install/follow_waypoints/share/ament_index/resource_index/packages
+[1.335s] copying package.xml -> /home/tarun/CustomMultibot/install/follow_waypoints/share/follow_waypoints
+[1.335s] copying config/follow_waypoints.yaml -> /home/tarun/CustomMultibot/install/follow_waypoints/share/follow_waypoints/config
+[1.335s] running install_egg_info
+[1.336s] Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info
+[1.337s] running install_scripts
+[1.352s] Installing follow_waypoints_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.352s] Installing go_to_points_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.353s] Installing robot_1_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.353s] Installing robot_2_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.353s] writing list of installed files to '/home/tarun/CustomMultibot/build/follow_waypoints/install.log'
+[1.372s] Invoked command in '/home/tarun/CustomMultibot/src/follow_waypoints' returned '0': PYTHONPATH=/home/tarun/CustomMultibot/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/tarun/CustomMultibot/build/follow_waypoints/build install --record /home/tarun/CustomMultibot/build/follow_waypoints/install.log --single-version-externally-managed install_data --force

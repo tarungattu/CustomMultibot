@@ -1,8 +1,8 @@
-# Install script for directory: /home/tarun_56/multibot_ws/src/nav2_bringup
+# Install script for directory: /home/tarun/CustomMultibot/src/nav2_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tarun_56/multibot_ws/install/nav2_bringup")
+  set(CMAKE_INSTALL_PREFIX "/home/tarun/CustomMultibot/install/nav2_bringup")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/tarun_56/multibot_ws/build/nav2_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/tarun/CustomMultibot/build/nav2_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tarun_56/multibot_ws/build/nav2_bringup/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tarun/CustomMultibot/build/nav2_bringup/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

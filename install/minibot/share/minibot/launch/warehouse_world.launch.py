@@ -1,1 +1,0 @@
-/home/tarun_56/multibot_ws/src/minibot/launch/warehouse_world.launch.py

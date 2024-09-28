@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing spade_agents.egg-info/PKG-INFO
+writing dependency_links to spade_agents.egg-info/dependency_links.txt
+writing entry points to spade_agents.egg-info/entry_points.txt
+writing requirements to spade_agents.egg-info/requires.txt
+writing top-level names to spade_agents.egg-info/top_level.txt
+reading manifest file 'spade_agents.egg-info/SOURCES.txt'
+writing manifest file 'spade_agents.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tarun/CustomMultibot/install/spade_agents/lib/python3.10/site-packages/spade-agents.egg-link (link to .)
+
+Installed /home/tarun/CustomMultibot/build/spade_agents
+running symlink_data
+symbolically linking /home/tarun/CustomMultibot/build/spade_agents/resource/spade_agents -> /home/tarun/CustomMultibot/install/spade_agents/share/ament_index/resource_index/packages
+symbolically linking /home/tarun/CustomMultibot/build/spade_agents/package.xml -> /home/tarun/CustomMultibot/install/spade_agents/share/spade_agents

@@ -1,0 +1,6 @@
+Invoking command in '/home/tarun/CustomMultibot/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/autobot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/autobot
+Invoked command in '/home/tarun/CustomMultibot/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/autobot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/autobot
+Invoking command in '/home/tarun/CustomMultibot/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/autobot -- -j12 -l12
+Invoked command in '/home/tarun/CustomMultibot/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/autobot -- -j12 -l12
+Invoking command in '/home/tarun/CustomMultibot/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/autobot
+Invoked command in '/home/tarun/CustomMultibot/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/autobot

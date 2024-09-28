@@ -1,0 +1,3 @@
+Invoking command in '/home/tarun/CustomMultibot/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/turtlebot3_gazebo
+Invoked command in '/home/tarun/CustomMultibot/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/turtlebot3_gazebo
+Invoking command in '/home/tarun/CustomMultibot/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/turtlebot3_gazebo -- -j12 -l12

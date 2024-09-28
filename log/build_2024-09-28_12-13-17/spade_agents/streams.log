@@ -1,0 +1,18 @@
+[0.743s] Invoking command in '/home/tarun/CustomMultibot/build/spade_agents': PYTHONPATH=/home/tarun/CustomMultibot/build/spade_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/spade_agents/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun/CustomMultibot/build/spade_agents/build --no-deps symlink_data
+[0.951s] running develop
+[0.952s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.952s]   warnings.warn(
+[1.089s] running egg_info
+[1.089s] writing spade_agents.egg-info/PKG-INFO
+[1.090s] writing dependency_links to spade_agents.egg-info/dependency_links.txt
+[1.090s] writing entry points to spade_agents.egg-info/entry_points.txt
+[1.090s] writing requirements to spade_agents.egg-info/requires.txt
+[1.090s] writing top-level names to spade_agents.egg-info/top_level.txt
+[1.092s] reading manifest file 'spade_agents.egg-info/SOURCES.txt'
+[1.093s] writing manifest file 'spade_agents.egg-info/SOURCES.txt'
+[1.094s] running build_ext
+[1.094s] Creating /home/tarun/CustomMultibot/install/spade_agents/lib/python3.10/site-packages/spade-agents.egg-link (link to .)
+[1.094s] 
+[1.095s] Installed /home/tarun/CustomMultibot/build/spade_agents
+[1.095s] running symlink_data
+[1.126s] Invoked command in '/home/tarun/CustomMultibot/build/spade_agents' returned '0': PYTHONPATH=/home/tarun/CustomMultibot/build/spade_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/spade_agents/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun/CustomMultibot/build/spade_agents/build --no-deps symlink_data

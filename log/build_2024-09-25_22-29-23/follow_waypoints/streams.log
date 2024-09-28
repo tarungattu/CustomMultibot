@@ -1,0 +1,22 @@
+[0.857s] Invoking command in '/home/tarun/CustomMultibot/build/follow_waypoints': PYTHONPATH=/home/tarun/CustomMultibot/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun/CustomMultibot/build/follow_waypoints/build --no-deps symlink_data
+[1.075s] running develop
+[1.075s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.075s]   warnings.warn(
+[1.218s] running egg_info
+[1.218s] writing follow_waypoints.egg-info/PKG-INFO
+[1.219s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[1.219s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[1.219s] writing requirements to follow_waypoints.egg-info/requires.txt
+[1.219s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[1.222s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.222s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.224s] running build_ext
+[1.224s] Creating /home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.225s] Installing follow_waypoints_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.225s] Installing go_to_points_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.225s] Installing robot_1_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.225s] Installing robot_2_exe script to /home/tarun/CustomMultibot/install/follow_waypoints/lib/follow_waypoints
+[1.225s] 
+[1.225s] Installed /home/tarun/CustomMultibot/build/follow_waypoints
+[1.226s] running symlink_data
+[1.269s] Invoked command in '/home/tarun/CustomMultibot/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun/CustomMultibot/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarun/CustomMultibot/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun/CustomMultibot/build/follow_waypoints/build --no-deps symlink_data

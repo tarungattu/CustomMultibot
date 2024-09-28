@@ -1,0 +1,6 @@
+Invoking command in '/home/tarun/CustomMultibot/build/minibot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/minibot -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/minibot
+Invoked command in '/home/tarun/CustomMultibot/build/minibot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/minibot -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/minibot
+Invoking command in '/home/tarun/CustomMultibot/build/minibot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/minibot -- -j12 -l12
+Invoked command in '/home/tarun/CustomMultibot/build/minibot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/minibot -- -j12 -l12
+Invoking command in '/home/tarun/CustomMultibot/build/minibot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/minibot
+Invoked command in '/home/tarun/CustomMultibot/build/minibot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/minibot

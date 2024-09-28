@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tarun_56/multibot_ws/src/minibot
+CMAKE_SOURCE_DIR = /home/tarun/CustomMultibot/src/minibot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tarun_56/multibot_ws/build/minibot
+CMAKE_BINARY_DIR = /home/tarun/CustomMultibot/build/minibot
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tarun_56/multibot_ws/build/minibot/CMakeFiles /home/tarun_56/multibot_ws/build/minibot//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tarun/CustomMultibot/build/minibot/CMakeFiles /home/tarun/CustomMultibot/build/minibot//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tarun_56/multibot_ws/build/minibot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tarun/CustomMultibot/build/minibot/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

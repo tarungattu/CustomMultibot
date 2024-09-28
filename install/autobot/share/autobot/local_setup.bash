@@ -1,0 +1,1 @@
+/home/tarun/CustomMultibot/build/autobot/ament_cmake_environment_hooks/local_setup.bash

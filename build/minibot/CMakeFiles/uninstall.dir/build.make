@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tarun_56/multibot_ws/src/minibot
+CMAKE_SOURCE_DIR = /home/tarun/CustomMultibot/src/minibot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tarun_56/multibot_ws/build/minibot
+CMAKE_BINARY_DIR = /home/tarun/CustomMultibot/build/minibot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tarun_56/multibot_ws/build/minibot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tarun_56/multibot_ws/src/minibot /home/tarun_56/multibot_ws/src/minibot /home/tarun_56/multibot_ws/build/minibot /home/tarun_56/multibot_ws/build/minibot /home/tarun_56/multibot_ws/build/minibot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tarun/CustomMultibot/build/minibot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tarun/CustomMultibot/src/minibot /home/tarun/CustomMultibot/src/minibot /home/tarun/CustomMultibot/build/minibot /home/tarun/CustomMultibot/build/minibot /home/tarun/CustomMultibot/build/minibot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

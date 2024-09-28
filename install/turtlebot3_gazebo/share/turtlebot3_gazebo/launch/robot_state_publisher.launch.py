@@ -1,1 +1,1 @@
-/home/tarun_56/multibot_ws/src/turtlebot3_gazebo/launch/robot_state_publisher.launch.py
+/home/tarun/CustomMultibot/src/turtlebot3_gazebo/launch/robot_state_publisher.launch.py
