@@ -133,7 +133,7 @@
     </inertial>
   </link>
 
-  <joint name="castor_wheels_joint" type="fixed">
+  <joint name="castor_wheels_joint" type="revolute">
     <parent link="base_link"/>
     <child link="castor_wheels"/>
     <origin xyz="0.17607 0.003608 -0.079343" rpy="0 0 0"/>

@@ -12,6 +12,7 @@ resource/spade_agents
 spade_agents/__init__.py
 spade_agents/amr_agent1.py
 spade_agents/amr_agent2.py
+spade_agents/amr_agent3.py
 spade_agents/loading_dock_agent.py
 spade_agents.egg-info/PKG-INFO
 spade_agents.egg-info/SOURCES.txt

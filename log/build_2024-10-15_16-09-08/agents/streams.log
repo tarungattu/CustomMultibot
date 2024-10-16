@@ -1,0 +1,21 @@
+[0.023s] Invoking command in '/home/tarun/CustomMultibot/build/agents': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/agents -- -j12 -l12
+[0.454s] Invoked command in '/home/tarun/CustomMultibot/build/agents' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/agents -- -j12 -l12
+[0.484s] Invoking command in '/home/tarun/CustomMultibot/build/agents': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/agents
+[0.491s] -- Install configuration: ""
+[0.494s] -- Execute custom install script
+[0.495s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/ament_index/resource_index/package_run_dependencies/agents
+[0.495s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/ament_index/resource_index/parent_prefix_path/agents
+[0.496s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/environment/ament_prefix_path.sh
+[0.496s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/environment/ament_prefix_path.dsv
+[0.497s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/environment/path.sh
+[0.497s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/environment/path.dsv
+[0.498s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/local_setup.bash
+[0.498s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/local_setup.sh
+[0.499s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/local_setup.zsh
+[0.499s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/local_setup.dsv
+[0.499s] -- Symlinking: /home/tarun/CustomMultibot/install/agents/share/agents/package.dsv
+[0.512s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/ament_index/resource_index/packages/agents
+[0.513s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/cmake/agentsConfig.cmake
+[0.513s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/cmake/agentsConfig-version.cmake
+[0.513s] -- Up-to-date symlink: /home/tarun/CustomMultibot/install/agents/share/agents/package.xml
+[0.513s] Invoked command in '/home/tarun/CustomMultibot/build/agents' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/agents

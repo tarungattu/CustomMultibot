@@ -40,6 +40,8 @@
 /home/tarun/CustomMultibot/install/autobot/share/autobot/launch/start_world_standalone.launch.py
 /home/tarun/CustomMultibot/install/autobot/share/autobot/launch/test_launch.py
 /home/tarun/CustomMultibot/install/autobot/share/autobot/worlds/empty.world
+/home/tarun/CustomMultibot/install/autobot/share/autobot/worlds/factory.model
+/home/tarun/CustomMultibot/install/autobot/share/autobot/worlds/factory1.world
 /home/tarun/CustomMultibot/install/autobot/share/autobot/worlds/new_warehouse.world
 /home/tarun/CustomMultibot/install/autobot/share/autobot/worlds/obstacles.world
 /home/tarun/CustomMultibot/install/autobot/share/autobot/worlds/room.world/model.config

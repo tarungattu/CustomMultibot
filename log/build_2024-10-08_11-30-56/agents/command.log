@@ -1,0 +1,6 @@
+Invoking command in '/home/tarun/CustomMultibot/build/agents': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/MultiAgentSystem -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/agents
+Invoked command in '/home/tarun/CustomMultibot/build/agents' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun/CustomMultibot/src/MultiAgentSystem -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun/CustomMultibot/install/agents
+Invoking command in '/home/tarun/CustomMultibot/build/agents': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/agents -- -j12 -l12
+Invoked command in '/home/tarun/CustomMultibot/build/agents' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun/CustomMultibot/build/agents -- -j12 -l12
+Invoking command in '/home/tarun/CustomMultibot/build/agents': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/agents
+Invoked command in '/home/tarun/CustomMultibot/build/agents' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun/CustomMultibot/build/agents

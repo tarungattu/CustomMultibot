@@ -1,0 +1,4 @@
+source;share/agents/local_setup.bash
+source;share/agents/local_setup.dsv
+source;share/agents/local_setup.sh
+source;share/agents/local_setup.zsh
