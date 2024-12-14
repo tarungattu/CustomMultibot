@@ -39,11 +39,11 @@ def generate_launch_description():
 
     # Names and poses of the robots
     robots = [
-        {'name': 'robot1', 'x_pose': 8.288, 'y_pose': 22, 'z_pose': 0.1,
+        {'name': 'robot1', 'x_pose': -6.5, 'y_pose': -6.8, 'z_pose': 0.1,
                            'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0},
-        {'name': 'robot2', 'x_pose': 8.288, 'y_pose': 20, 'z_pose': 0.1,
+        {'name': 'robot2', 'x_pose': -8.53, 'y_pose': -7.03, 'z_pose': 0.1,
                            'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0},
-        {'name': 'robot3', 'x_pose': 8.288, 'y_pose': 18.17, 'z_pose': 0.1,
+        {'name': 'robot3', 'x_pose': -10.09, 'y_pose': -6.84, 'z_pose': 0.1,
                            'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}]
 
     # Simulation settings
@@ -62,7 +62,7 @@ def generate_launch_description():
     # Declare the launch arguments
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value=os.path.join(bringup_dir, 'worlds', 'factory1.world'),
+        default_value=os.path.join(bringup_dir, 'worlds', 'warehouse.world'),
         description='Full path to world file to load')
 
     declare_simulator_cmd = DeclareLaunchArgument(
@@ -72,7 +72,7 @@ def generate_launch_description():
 
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
-        default_value=os.path.join(bringup_dir, 'maps', 'factory_map_save.yaml'),
+        default_value=os.path.join(bringup_dir, 'maps', 'four_machine_map_save.yaml'),
         description='Full path to map file to load')
 
     declare_robot1_params_file_cmd = DeclareLaunchArgument(

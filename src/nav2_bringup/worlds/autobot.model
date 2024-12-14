@@ -70,7 +70,7 @@
 
       <sensor name="lidar_sensor" type="ray">
         <always_on>true</always_on>
-        <visualize>true</visualize>
+        <visualize>false</visualize>
         <pose>0.03 0 0.05 0 0 0</pose> <!-- Adjust the position based on your robot's configuration -->
         <update_rate>30</update_rate>
         <ray>
